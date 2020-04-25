@@ -1,0 +1,10 @@
+Name: Shambhavi Awasthi
+Data Structures and Algorithms NanoDegree Program
+Project 2 - Show me the Data Structures
+
+Problem 4: Active Directory
+
+Analysis:
+Here I used the concept of recursion to search for a group within a group. The three conditional statements form the base cases and if the name is same as user or if the user is in the user list, it returns true. Else if the group contains another group, the function is recursively called again. If all conditions are false, it returns False.
+The complexity of this problem depends on the depth of the group and the number of users in the user list.
+So overall complexity is O(mn) where m is the depth of groups and n is the number of users. Space complexity is same as time complexity.

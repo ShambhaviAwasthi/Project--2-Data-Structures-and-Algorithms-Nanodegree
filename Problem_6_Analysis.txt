@@ -1,0 +1,14 @@
+Name: Shambhavi Awasthi
+Data Structures and Algorithms NanoDegree Program
+Project 2 - Show me the Data Structures
+
+
+Problem 6: Union and Intersection
+Your task for this problem is to fill out the union and intersection functions. You will take in two linked lists and return a linked list that is composed of either the union or intersection, respectively. Once you have completed the problem you will create your own test cases and perform your own run time analysis on the code.
+
+
+Analysis:
+I created two classes: Node and Linked List. I competed the union and intersection functions under the class LinkedList. To find the union, I used the concept of sets as we know that sets store unique elements from both the lists. For intersection method I compared both the list and used two loops to find the intersection of the lists. The time complexity of my code is O(mn) as I have used two nested loops, where n and m denote the lengths of the two input lists.
+Space complexities:
+union : O(n)
+intersection : O(n)

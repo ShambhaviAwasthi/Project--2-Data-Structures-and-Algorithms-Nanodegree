@@ -1,0 +1,9 @@
+Name: Shambhavi Awasthi
+Data Structures and Algorithms NanoDegree Program
+Project 2 - Show me the Data Structures
+
+Problem 5: BlockChain
+
+Analysis:
+A class LinkedList was created and a function to append the blocks was made. The time complexity to add the blocks is O(1) since we are adding the blocks through previous hash as mentioned in the ques.
+Space complexity depends on the length of block chain or the space occupied by the block chain.

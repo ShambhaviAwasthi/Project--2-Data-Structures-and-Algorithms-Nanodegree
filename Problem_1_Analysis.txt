@@ -1,0 +1,8 @@
+Name: Shambhavi Awasthi
+Data Structures and Algorithms NanoDegree Program
+Project 2 - Show me the Data Structures
+
+Problem 1: LRU Cache
+
+Analysis: Here I have use deque as it is accessible from both ends. The element to the left is the least used in the order deque and hence that element is removed using del() to store new values. This solution has no loops and hence of complexity O(1).
+get() and set() functions were defined according the expected return values. The space complexity of the code depends on the capacity of cache, so it is O(n).

@@ -1,0 +1,8 @@
+Name: Shambhavi Awasthi
+Data Structures and Algorithms NanoDegree Program
+Project 2 - Show me the Data Structures
+
+Problem 3: Huffman Coding
+
+Analysis:
+Two functions were created to decode and encode the data. The complexity of the code is O(n log n ) because of the use of sorted() function and the data structure concept used was tree. Also the concept of dictionary was used to store key value pair. Space complexity depends on number of distinct characters in the sentence, so it is O(different characters).

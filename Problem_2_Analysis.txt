@@ -1,0 +1,14 @@
+Name: Shambhavi Awasthi
+Data Structures and Algorithms NanoDegree Program
+Project 2 - Show me the Data Structures
+
+Problem 2: File Recursion ( without using os.walk )
+
+Analysis:
+Recursive function is used to find all files of an extension type in a folder and its subfolders.
+path:        Base directory to find files
+pathList:    A list that stores all paths
+extension:   File extension to find
+I have used exception handling to detect the invalid path as input.
+This code has a complexity of O(n) as there is one loop and the rest is the recursive call. The space complexity depends on the depth of dictionary. So it is O(depth of dictionary).
+    
